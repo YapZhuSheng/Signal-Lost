@@ -1,0 +1,30 @@
+{
+  "name": "signal-lost",
+  "version": "1.0.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build && node scripts/build-offline.js",
+    "preview": "vite preview --host 0.0.0.0",
+    "test": "node --test tests/simulation.test.js",
+    "test:browser": "npm run build && playwright test",
+    "profile": "node tests/profile.js",
+    "format": "prettier --write src tests scripts index.html",
+    "mobile:sync": "npm run build && cap sync",
+    "test:campaign": "node tests/playthrough.js"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.5.2",
+    "@playwright/test": "^1.58.2",
+    "prettier": "^3.9.9",
+    "vite": "^7.3.1"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.5.2",
+    "@capacitor/core": "^8.5.2",
+    "@capacitor/ios": "^8.5.2"
+  },
+  "description": "Touch-first deterministic sci-fi drone automation and survival game",
+  "license": "MIT"
+}

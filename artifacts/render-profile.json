@@ -1,0 +1,6 @@
+{
+  "scenario": "1440 × 1000 established colony, headless Chromium CPU canvas",
+  "meanMs": 2.6050000000007763,
+  "p95Ms": 4.099999999860302,
+  "maxMs": 6.199999999953434
+}

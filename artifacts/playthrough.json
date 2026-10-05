@@ -1,0 +1,502 @@
+{
+  "won": true,
+  "lost": false,
+  "tick": 3157,
+  "history": [
+    {
+      "tick": 1,
+      "stock": [
+        0,
+        50,
+        0
+      ],
+      "data": 0,
+      "tech": [],
+      "buildings": [
+        [
+          "hub",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 50,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          0,
+          false,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ]
+      ],
+      "drones": [
+        [
+          "miner",
+          "mine",
+          100
+        ],
+        [
+          "miner",
+          "mine",
+          100
+        ],
+        [
+          "hauler",
+          "Waiting for logistics",
+          100
+        ],
+        [
+          "explorer",
+          "explore",
+          100
+        ],
+        [
+          "builder",
+          "build",
+          100
+        ]
+      ],
+      "enemies": 0
+    },
+    {
+      "tick": 1001,
+      "stock": [
+        1,
+        12,
+        1
+      ],
+      "data": 52,
+      "tech": [
+        "industry",
+        "defense"
+      ],
+      "buildings": [
+        [
+          "hub",
+          100,
+          true,
+          {
+            "ore": 1,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "lab",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 2,
+            "component": 0
+          }
+        ],
+        [
+          "refinery",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 3,
+            "component": 0
+          }
+        ],
+        [
+          "factory",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 7,
+            "component": 0
+          }
+        ],
+        [
+          "bay",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 1
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ]
+      ],
+      "drones": [
+        [
+          "miner",
+          "deliver",
+          100
+        ],
+        [
+          "miner",
+          "deliver",
+          100
+        ],
+        [
+          "hauler",
+          "deliver",
+          100
+        ],
+        [
+          "explorer",
+          "explore",
+          95
+        ],
+        [
+          "builder",
+          "Standing by · repairs ready",
+          100
+        ],
+        [
+          "hauler",
+          "haul",
+          100
+        ]
+      ],
+      "enemies": 0
+    },
+    {
+      "tick": 2001,
+      "stock": [
+        72,
+        3,
+        25
+      ],
+      "data": 90,
+      "tech": [
+        "industry",
+        "defense"
+      ],
+      "buildings": [
+        [
+          "hub",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "lab",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "refinery",
+          100,
+          true,
+          {
+            "ore": 72,
+            "alloy": 1,
+            "component": 0
+          }
+        ],
+        [
+          "factory",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 2,
+            "component": 19
+          }
+        ],
+        [
+          "bay",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 6
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ]
+      ],
+      "drones": [
+        [
+          "miner",
+          "deliver",
+          100
+        ],
+        [
+          "miner",
+          "deliver",
+          100
+        ],
+        [
+          "hauler",
+          "deliver",
+          100
+        ],
+        [
+          "explorer",
+          "Planet mapped",
+          87
+        ],
+        [
+          "builder",
+          "Standing by · repairs ready",
+          100
+        ],
+        [
+          "hauler",
+          "haul",
+          100
+        ],
+        [
+          "combat",
+          "Patrolling · no threats",
+          100
+        ],
+        [
+          "combat",
+          "Patrolling · no threats",
+          100
+        ]
+      ],
+      "enemies": 0
+    },
+    {
+      "tick": 3001,
+      "stock": [
+        58,
+        47,
+        30
+      ],
+      "data": 114,
+      "tech": [
+        "industry",
+        "defense",
+        "signal"
+      ],
+      "buildings": [
+        [
+          "hub",
+          100,
+          true,
+          {
+            "ore": 48,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "lab",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 5,
+            "component": 0
+          }
+        ],
+        [
+          "refinery",
+          100,
+          true,
+          {
+            "ore": 10,
+            "alloy": 22,
+            "component": 0
+          }
+        ],
+        [
+          "factory",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 20,
+            "component": 24
+          }
+        ],
+        [
+          "bay",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 6
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "turret",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ],
+        [
+          "solar",
+          100,
+          true,
+          {
+            "ore": 0,
+            "alloy": 0,
+            "component": 0
+          }
+        ]
+      ],
+      "drones": [
+        [
+          "miner",
+          "mine",
+          100
+        ],
+        [
+          "miner",
+          "mine",
+          100
+        ],
+        [
+          "hauler",
+          "haul",
+          100
+        ],
+        [
+          "explorer",
+          "Planet mapped",
+          87
+        ],
+        [
+          "builder",
+          "Standing by · repairs ready",
+          100
+        ],
+        [
+          "hauler",
+          "haul",
+          100
+        ],
+        [
+          "combat",
+          "fight",
+          100
+        ],
+        [
+          "combat",
+          "fight",
+          100
+        ]
+      ],
+      "enemies": 3
+    }
+  ]
+}

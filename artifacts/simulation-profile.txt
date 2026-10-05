@@ -1,0 +1,15 @@
+
+> signal-lost@1.0.0 profile
+> node tests/profile.js
+
+{
+  "scenario": "48 × 48 revealed map, 80 starting drones, 3000 simulation ticks",
+  "runtime": "v24.19.0",
+  "meanMs": 1.4939231443333374,
+  "p95Ms": 1.9017840000001343,
+  "p99Ms": 2.9355189999996583,
+  "maxMs": 7.413176000000021,
+  "finalDrones": 80,
+  "finalEnemies": 0,
+  "budgetMs": 200
+}

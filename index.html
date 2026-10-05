@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width,initial-scale=1,viewport-fit=cover"
+    />
+    <meta name="theme-color" content="#101d21" />
+    <meta
+      name="description"
+      content="A quiet planet. A thinking colony. Program your drones and find your way home."
+    />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" href="/icon.svg" type="image/svg+xml" />
+    <title>SIGNAL//LOST — Autonomous survival</title>
+  </head>
+  <body>
+    <canvas
+      id="world"
+      aria-label="Alien world. Drag to pan, pinch to zoom, tap a drone to inspect."
+    ></canvas>
+    <div id="app">
+      <header class="topbar">
+        <button
+          class="wordmark"
+          id="title-button"
+          aria-label="Open mission settings"
+        >
+          SIGNAL<span>//</span>LOST<small>COLONY OPERATIONS</small>
+        </button>
+        <div class="resources">
+          <div title="Raw ore in building buffers">
+            <i class="ore">◆</i><strong id="ore">0</strong><small>ORE</small>
+          </div>
+          <div title="Alloy available across colony">
+            <i>▰</i><strong id="alloy">60</strong><small>ALLOY</small>
+          </div>
+          <div title="Components in building buffers">
+            <i class="blue">⬡</i><strong id="component">0</strong
+            ><small>PARTS</small>
+          </div>
+          <div title="Research data">
+            <i class="purple">✧</i><strong id="data">0</strong
+            ><small>DATA</small>
+          </div>
+        </div>
+        <button id="pause" class="icon-button" aria-label="Pause game">Ⅱ</button
+        ><button id="settings" class="icon-button" aria-label="Settings">
+          ☷
+        </button>
+      </header>
+      <div class="sector-label">
+        <span class="status-dot"></span> <span id="sector">KEPLER-09</span
+        ><span class="divider">/</span> UNCHARTED SYSTEM
+        <small id="clock">SOL 01 · 00:00</small>
+      </div>
+      <aside id="mission" class="mission glass">
+        <div class="eyebrow">
+          <span>MISSION PROTOCOL</span><span id="mission-count">01 / 07</span>
+        </div>
+        <div class="mission-title">
+          <span id="mission-symbol">01</span>
+          <h2 id="mission-name">Meet your crew</h2>
+        </div>
+        <p id="mission-description"></p>
+        <button id="mission-action" class="text-button">
+          Inspect a drone <span>↗</span>
+        </button>
+        <div class="mission-track"><i id="mission-progress"></i></div>
+      </aside>
+      <div class="map-tools">
+        <button id="home" aria-label="Center on landing core">⌂</button
+        ><button id="zoom-in" aria-label="Zoom in">+</button
+        ><button id="zoom-out" aria-label="Zoom out">−</button
+        ><button id="power-toggle" aria-label="Toggle power coverage">ϟ</button>
+      </div>
+      <aside
+        id="panel"
+        class="panel glass"
+        aria-label="Colony controls"
+        hidden
+      ></aside>
+      <div id="placement" class="glass placement" hidden>
+        <div>
+          <span class="eyebrow">CONSTRUCTION MODE</span
+          ><strong id="placement-name"></strong>
+          <p id="placement-help">
+            Tap a clear tile to position your blueprint.
+          </p>
+        </div>
+        <div class="placement-actions">
+          <button id="cancel-build" class="secondary">Cancel</button
+          ><button id="confirm-build" class="primary" disabled>
+            Place blueprint
+          </button>
+        </div>
+      </div>
+      <div class="lower-left">
+        <div class="mini-shell glass">
+          <canvas
+            id="minimap"
+            width="144"
+            height="144"
+            aria-label="Sector map. Tap to move camera."
+          ></canvas
+          ><span>SECTOR OVERVIEW <b id="explored">12%</b></span>
+        </div>
+        <div class="planet-note">PLANET 04–B <span>•</span> BASALT REACH</div>
+      </div>
+      <div class="activity glass">
+        <span class="status-dot"></span
+        ><span id="activity-text">All systems nominal</span
+        ><button id="speed" aria-label="Change simulation speed">1×</button>
+      </div>
+      <nav class="dock glass" aria-label="Game tools">
+        <button data-panel="build"><span>⊞</span>Build<kbd>B</kbd></button
+        ><button data-panel="fleet">
+          <span>✥</span>Fleet<em id="fleet-count">5</em></button
+        ><button data-panel="program"><span>⌁</span>Program<kbd>P</kbd></button
+        ><button data-panel="research">
+          <span>✧</span>Research<kbd>R</kbd></button
+        ><button data-panel="log"><span>≡</span>Log<kbd>L</kbd></button>
+      </nav>
+      <div id="toast" role="status"></div>
+    </div>
+    <div id="modal" class="modal" hidden></div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

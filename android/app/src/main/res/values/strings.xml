@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SIGNAL LOST</string>
+    <string name="title_activity_main">SIGNAL LOST</string>
+    <string name="package_name">game.signallost.colony</string>
+    <string name="custom_url_scheme">game.signallost.colony</string>
+</resources>
