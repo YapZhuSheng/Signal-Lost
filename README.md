@@ -2,6 +2,12 @@
 
 A complete, small single-player automation-survival game for touchscreens and browsers. Crash-land, program a fleet, build a working production chain, defend the colony, and restore the orbital signal. A successful expedition takes roughly 10–25 minutes; the colony remains playable afterward.
 
+## Install on Android
+
+Download [SIGNAL//LOST Android v1.0.0](releases/SIGNAL-LOST-android-v1.0.0.apk) directly on an Android 7.0 or newer phone. Open the downloaded APK and allow installation from your browser or Files app when Android asks. The game, audio, saves, and offline assets are bundled; npm and an internet connection are not required after installation.
+
+This preview APK uses an Android debug signing certificate. A later Play Store or release-signed build may require uninstalling this preview before installation. SHA-256: `2d7bcf343d45f589585451033f7d3b6c58a519a39af798ce47c518937f9afa90`.
+
 ## Play / run
 
 Requires Node.js **22.12+** (tested with 24.19) and npm. No account, backend, API keys, or paid assets.
